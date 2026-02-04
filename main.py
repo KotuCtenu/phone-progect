@@ -7,6 +7,7 @@ from kivy.uix.screenmanager import ScreenManager,Screen
 import instructions
 
 all_results = dict()
+word = 'perfect'
 
 class NewApp(App):
     def build(self):
